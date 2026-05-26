@@ -1,0 +1,25 @@
+{
+    "name": "padosoft/scalapay-php-sdk",
+    "description": "Padosoft-maintained clone of the Scalapay PHP SDK",
+    "keywords": ["scalapay", "payments", "shopping"],
+    "homepage": "https://github.com/padosoft/scalapay-php-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Padosoft",
+            "homepage": "https://www.padosoft.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6 <8.6",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scalapay\\Sdk\\": "src/"
+        }
+    }
+}
