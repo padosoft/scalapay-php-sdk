@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.3.7] - 2026-05-27
+### Changed
+- Repackages the SDK under the `padosoft/scalapay-php-sdk` Composer vendor.
+- Documents this package as a Padosoft-maintained clone of the unmaintained upstream package.
+- Declares support for PHP versions from 5.6 up to 8.5.
+
 ## [3.3.6] - 2025-09-29
 ### Added
 - [SECLEV-68] - Adds exception code for order not found
